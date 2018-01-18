@@ -24,6 +24,6 @@ function keepGoing(array, changeValue, stopValue) {
 
 function findBy(array, findFn) {
   for (var i = 0; i < array.length; i++) {
-    
+    findFn(array[i]);
   }
 }
